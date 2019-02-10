@@ -1,0 +1,11 @@
+{
+  "name": "wontube",
+  "version": "1.0.0",
+  "description": "Cloning Youtube with Vanilla and NodeJS",
+  "main": "index.js",
+  "author": "sangwon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
