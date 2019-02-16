@@ -2,6 +2,7 @@ import passport from "passport";
 import GithubStrategy from "passport-github";
 import User from "./models/User";
 import routes from "./routes";
+import { githubLoginCallback } from "./controllers/userController";
 
 passport.use(User.createStrategy());
 
