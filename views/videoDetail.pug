@@ -28,5 +28,6 @@ block content
             form.addcomment#jsAddComment
                 input(type="text", placeholder="Add a comment")
             ul.video__comments-list
-                each comment in viceo.comments
-                    span comment.text
+                each comment in video.comments
+                    li
+                        span=comment.text
