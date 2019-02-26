@@ -12,7 +12,7 @@ import routes from "./routes";
 import userRouter from "./routers/userRouter";
 import videoRouter from "./routers/videoRouter";
 import globalRouter from "./routers/globalRouter";
-import apiRouter from "./routes/apiRouter";
+import apiRouter from "./routers/apiRouter";
 
 import "./passport";
 
